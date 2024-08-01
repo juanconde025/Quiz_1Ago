@@ -30,9 +30,9 @@ const CargarCursos = () => {
 async function ImprimirCursoCargado(){
     try{
         const result = await CargarCursos();
-        document.write(result);
+        alert(result);
     }catch (error){
-        document.write(error);
+        alert(error);
     }
 }
 
